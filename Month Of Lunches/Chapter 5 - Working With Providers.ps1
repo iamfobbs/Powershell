@@ -64,22 +64,15 @@ help Get-ChildItem -Examples
 ANSWERS
 
 
-#1
-#2
-#3
+#1 Refer to Q1.
+#2 Refer to Q2
+#3 The File sysyem does not support the action.
+
 #4
-#5
-#6
-#7
-#8
-#9
-#10
-#11
-#12
-#13
-#14
-#15
-#16
-#17
-#18
-#19
+Include and exclude: must be used with –Recurse or if querying a container. 
+Filter uses the PSProviders filter capability which not all Providers support. 
+
+#NOTE: recurse goes through the entire directory/including sub-directories
+
+For example, you could use DIR –filter in the file system but not in the registry.
+Although you could use DIR –include in the registry to achieve almost the same type of filtering result.
